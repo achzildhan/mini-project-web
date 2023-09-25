@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>freeCodeCamp Survey Form</title>
+  <title>Fresh N Fast</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -36,6 +36,16 @@
           </label>
         </fieldset>
       </div>
+
+      <!-- Phone number Input -->
+      <div class="form-group">
+        <fieldset>
+          <label for="email" id="email-label">
+            <p>Phone number</p>
+            <input id="phone-number" type="tel" placeholder="Enter your phone number" name="email" title="user-email" class="form-input" required>
+          </label>
+        </fieldset>
+      </div>
               
       <!-- Age Input -->
       <div class="form-group">
@@ -52,9 +62,9 @@
       <!-- Current Role Input -->
       <div class="form-group">
         <fieldset>
-          <label>
-            <p>Which option best describes your current role?</p>
-            <select id="dropdown role" name="select" title="current-role" class="form-input" required>
+          <label for="dropdown-product">
+            <p>What is type of deliver that you want to?</p>
+            <select id="dropdown-product" name="select" title="current-role" class="form-input" required>
               <option value="">Select current role</option>
               <option value="student">Student</option>
               <option value="full-time-job">Full Time Job</option>
@@ -70,7 +80,7 @@
       <div class="form-group">
         <fieldset>
           <label>
-            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <p>What is type of payment that you want to use?</p>
             <label for="definitely"><input id="definitely" type="radio" name="recommed" class="input-radio" value="definitely"> Definitely</label>
             <label for="maybe"><input id="maybe" type="radio" name="recommed" class="input-radio" value="maybe"> Maybe</label>
             <label for="not-sure"><input id="not-sure" type="radio" name="recommed" class="input-radio" value="not-sure"> Not sure</label>
