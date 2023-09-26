@@ -507,7 +507,7 @@
               <img src="assets/products/bundlekomplit1.jpg" alt="Bundle Complete A">
               <h2>Rp 275.000/kg</h2>
               <p>Berisi paket complete: buah, sayur, dan daging dengan komposisi protein, vitamin, dan mineral yang lengkap, sudah tersedia dalam satu pilihan.</p>
-              <button onclick="openBookingForm()" class="button" type="submit" title="select">Select</button>
+              <button onclick="changeColor1()" id="change1" class="button" type="submit" title="select">Select</button>
             </div>
 
             <div class="product" id="grocery">
@@ -515,14 +515,14 @@
               <img src="assets/products/bundlekomplit2.jpg" alt="Bundle Complete B">
               <h2>Rp 255.000/kg</h2>
               <p>Berisi paket complete: buah, sayur, dan daging dengan komposisi protein, vitamin, dan mineral yang lengkap, sudah tersedia dalam satu pilihan.</p>
-              <button onclick="openBookingForm()" class="button" type="submit" title="select">Select</button>
+              <button onclick="changeColor2()" id="change2" class="button" type="submit" title="select">Select</button>
             </div>
           </section>
 
         <section id="callus" class="closing">
             <h1>Dapatkan kebutuhan rumah yang sudah terjamin kualitasnya secara online!</h1>
             <p>Fresh N Fast adalah portal layanan belanja kebutuhan rumah online yang menyediakan produk berkualitas dari para petani lokal maupun impor. Sekarang tidak perlu lagi repot-repot mengantri, pergi ke toko yang padat, dan dilanda kemacetan. Cukup dengan handphone yang kamu punya sudah bisa berbelanja secara online dengan harga yang terjangkau!</p>
-            <a href="#form" id="submit2" target="_self">PESAN SEKARANG</a>
+            <a id="submit2" target="_blank" onclick="openBookingForm()">PESAN SEKARANG</a>
         </section>
     </main>
 
@@ -561,5 +561,6 @@
     <script src="js/formvalidate1.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/openBookingForm.js"></script>
+    <script src="js/changeButtonColor.js"></script>
 </body>
 </html>
