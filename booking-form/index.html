@@ -11,7 +11,7 @@
 <div class="container">
     <header>
       <h1 id="title">Fresh N Fast Booking Form</h1>
-      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <p id="description">Thank you for choosing us to serve the best experience for you</p>
     </header>
 
   <main>
@@ -40,21 +40,21 @@
       <!-- Phone number Input -->
       <div class="form-group">
         <fieldset>
-          <label for="email" id="email-label">
+          <label for="phone-number" id="phone-number-label">
             <p>Phone number</p>
-            <input id="phone-number" type="tel" placeholder="Enter your phone number" name="email" title="user-email" class="form-input" required>
+            <input id="phone-number" type="tel" placeholder="Enter your phone number" name="phone-number" title="user-phone-number" class="form-input" required>
           </label>
         </fieldset>
       </div>
               
-      <!-- Age Input -->
+      <!-- Address Input -->
       <div class="form-group">
         <fieldset>
-          <label for="number" id="number-label">
-             <p>Age
-              <span id="clue">(optional)</span>
+          <label for="address" id="address-label">
+             <p>Address
+              <span id="clue">(+ postal code)</span>
              </p>
-             <input id="number" type="number" placeholder="Age" min="13" max="100" title="user-age" name="user-age" class="form-input">
+             <input id="address" type="text" placeholder="Enter your address with postal code" title="user-address" name="user-address" class="form-input">
           </label>
         </fieldset>
       </div>
@@ -65,7 +65,7 @@
           <label for="dropdown-product">
             <p>What type of deliver that you want to?</p>
             <select id="dropdown-product" name="select" title="current-role" class="form-input" required>
-              <option value="">Select current role</option>
+              <option value="">Select available deliver</option>
               <option value="others">Regular</option>
               <option value="student">Pickup</option>
               <option value="full-time-job">Delivery</option>
@@ -94,8 +94,8 @@
           <label>
             <p>What product you want to buy?
             </p>
-            <label for="bundle-complete-a"><input id="bundle-complete-a" name="suggestion" type="checkbox" class="input-checkbox" value="bundle-complete-a" checked> Bundle Complete A</label>
-            <label for="bundle-complete-b"><input id="bundle-complete-b" name="suggestion" type="checkbox" class="input-checkbox" value="bundle-complete-b" checked> Bundle Complete B</label>
+            <label for="bundle-complete-a"><input id="bundle-complete-a" name="suggestion" type="checkbox" class="input-checkbox" value="bundle-complete-a" checked> Bundle Complete A <span class="right-float">x2</span></label>
+            <label for="bundle-complete-b"><input id="bundle-complete-b" name="suggestion" type="checkbox" class="input-checkbox" value="bundle-complete-b" checked> Bundle Complete B <span class="right-float">x1</span></label>
           </label>
           </fieldset>
       </div>
@@ -115,6 +115,8 @@
         <button onclick="openReceipt()" id="submit" type="submit" title="submit" name="submit-button" class="submit-button">Submit</button>
       </div>  
     </form>
+
+    <br><br><br>
   </main>
 </div>
     

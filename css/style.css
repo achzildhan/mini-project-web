@@ -447,6 +447,14 @@ textarea {
     margin-top: 20px;
   }
 
+  .container {
+    text-align: center;
+}
+
+.angka {
+    font-size: 14px;
+}
+
 #shortBorder2 {
     width:15%;
     margin:auto;
